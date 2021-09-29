@@ -677,7 +677,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 #header .social-links .social-tooltip:hover:after,
 #header .social-links .social-tooltip:hover:before { display: none; }
 
-#profile { background: #f7f7f7; border-top: 1px solid #eee; position: relative; text-align: center; float: left; margin: 0 -30px; padding: 0 30px 30px; }
+#profile { background: #f7f7f7; border-top: 1px solid #eee; width: 100%; position: relative; text-align: center; float: left; margin: 0 -30px; padding: 0 30px 30px; }
 #profile-inner {  }
 #profile-image { width: 64px; margin: -32px auto 0; }
 #profile-image img { position: relative; border-radius: 100%; z-index: 2; display: block; }
