@@ -4,11 +4,11 @@ Requires at least: 5.0
 Tested up to: 5.8
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
-Tags: blog, photography, portfolio, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background, footer-widgets, wide-blocks
+Tags: blog, photography, entertainment, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background, footer-widgets, wide-blocks
 
 == Description ==
 
-Bigvisual is a clean and minimal portfolio theme with plenty of options. It is flexible and optimized for all devices. You can pick different header color and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Bigvisual
+Bigvisual is a flexible personal blog theme with plenty of options. It is optimized for all devices and built to work with blocks. Blog posts are shown as visually beautiful cards that inspires you to read. You can pick accent color, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Bigvisual
 
 == Installation ==
 
