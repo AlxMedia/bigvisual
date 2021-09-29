@@ -68,10 +68,11 @@ License: CC0 1.0 Universal (CC0 1.0)
 Source: https://stocksnap.io
 
 Sidebar images
-1. https://stocksnap.io/photo/X - CC0 1.0 Universal (CC0 1.0)
+1. https://stocksnap.io/photo/TNK87N7464 - CC0 1.0 Universal (CC0 1.0)
 
 Content images
-1. https://stocksnap.io/photo/X - CC0 1.0 Universal (CC0 1.0)
+1. https://stocksnap.io/photo/1C1A9389B4 - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/8UWSPI773Q - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
 
