@@ -77,6 +77,10 @@ Content images
 
 == Changelog ==
 
+= 1.0.3 - 2021-10-01 =
+* Fixed single entry top spacing
+* Fixed spacing in case carousel is disabled
+
 = 1.0.2 - 2021-10-01 =
 * Fixed menu z-index, over carousel
 
