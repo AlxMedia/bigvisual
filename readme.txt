@@ -72,13 +72,15 @@ Sidebar images
 
 Content images
 1. https://stocksnap.io/photo/1C1A9389B4 - CC0 1.0 Universal (CC0 1.0)
-2. https://stocksnap.io/photo/8UWSPI773Q - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/TNK87N7464 - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/FLU1A9EK7E - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
 
 = 1.0.1 - 2021-10-01 =
 * Added featured posts carousel
 * Added grid for entries
+* Added new screenshot and credit
 
 = 1.0.0 - 2021-09-29 =
 * Initial release
