@@ -77,6 +77,9 @@ Content images
 
 == Changelog ==
 
+= 1.0.4 - 2021-10-01 =
+* Fixed grid spacing for mobile resolutions
+
 = 1.0.3 - 2021-10-01 =
 * Fixed single entry top spacing
 * Fixed spacing in case carousel is disabled

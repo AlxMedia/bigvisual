@@ -1,7 +1,7 @@
 /*
 Theme Name: Bigvisual
 Theme URI: http://alx.media/themes/bigvisual/
-Version: 1.0.3
+Version: 1.0.4
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.8
@@ -918,6 +918,10 @@ body.search article.type-page .type-card-date { display: none; }
 
 .article-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(380px,1fr)); gap: 30px; }
 
+@media only screen and (max-width: 1189px) {
+	.article-grid { display: block; }
+	.card-small .type-card { margin-bottom: 40px; }
+}
 @media only screen and (min-width: 1190px) {
 	.card-small .type-card-content { padding: 40px; }
 	.card-small .type-card-title { font-size: 32px; }
