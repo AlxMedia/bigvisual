@@ -8,11 +8,15 @@
 	
 	<?php get_template_part('inc/front-widgets-top'); ?>
 	
+	<?php get_template_part('inc/featured'); ?>
+	
 	<?php if ( have_posts() ) : ?>
 		
+		<div class="article-grid">
 		<?php while ( have_posts() ): the_post(); ?>
 			<?php get_template_part('content'); ?>
 		<?php endwhile; ?>
+		</div>
 		
 		<?php get_template_part('inc/front-widgets-bottom'); ?>
 		<?php get_template_part('inc/pagination'); ?>

@@ -140,6 +140,40 @@ Kirki::add_field( 'bigvisual_theme', array(
 		'step'	=> '1',
 	),
 ) );
+// Blog: Featured Posts Include
+Kirki::add_field( 'bigvisual_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'featured-posts-include',
+	'label'			=> esc_html__( 'Featured Posts', 'bigvisual' ),
+	'description'	=> esc_html__( 'Exclude featured posts from the content below', 'bigvisual' ),
+	'section'		=> 'blog',
+	'default'		=> 'off',
+) );
+// Blog: Featured Category
+Kirki::add_field( 'bigvisual_theme', array(
+	'type'			=> 'select',
+	'settings'		=> 'featured-category',
+	'label'			=> esc_html__( 'Featured Category', 'bigvisual' ),
+	'description'	=> esc_html__( 'By not selecting a category, it will show your latest post(s) from all categories', 'bigvisual' ),
+	'section'		=> 'blog',
+	'default'		=> '',
+	'choices'		=> Kirki_Helper::get_terms( 'category' ),
+	'placeholder'	=> esc_html__( 'Select a category', 'bigvisual' ),
+) );
+// Blog: Featured Post Count
+Kirki::add_field( 'bigvisual_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'featured-posts-count',
+	'label'			=> esc_html__( 'Featured Post Count', 'bigvisual' ),
+	'description'	=> esc_html__( 'Max number of featured posts to display. Set it to 0 to disable', 'bigvisual' ),
+	'section'		=> 'blog',
+	'default'		=> '3',
+	'choices'     => array(
+		'min'	=> '0',
+		'max'	=> '10',
+		'step'	=> '1',
+	),
+) );
 // Blog: Comment Count
 Kirki::add_field( 'bigvisual_theme', array(
 	'type'			=> 'switch',

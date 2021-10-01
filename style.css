@@ -1,7 +1,7 @@
 /*
 Theme Name: Bigvisual
 Theme URI: http://alx.media/themes/bigvisual/
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.8
@@ -866,7 +866,22 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 #page { position: relative; }
 #page:after { background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%); z-index: -1; content:""; display: block; position: absolute; top: 0; left: 0; right: 0; height: 300px; }
 
-.type-card { background: #fff; box-shadow: 0 1px 0 rgba(0,0,0,0.06), 0 2px 3px rgba(0,0,0,0.06); margin-bottom: 40px; border-radius: 10px; position: relative; }
+.slick-featured-wrap-outer { display: none; /* before loading */ margin: 0; }
+.slick-featured-wrap { padding: 0; }
+.slick-featured { position: relative; z-index: 2; }
+.slick-featured-nav { position: relative; text-align: center; margin-bottom: 0; z-index: 3; }
+.slick-featured-nav .slick-prev,
+.slick-featured-nav .slick-next { background: #fff; box-shadow: 0 1px 0 rgba(0,0,0,0.06), 0 2px 3px rgba(0,0,0,0.06); transition: all 0.3s ease; position: relative; display: inline-block; margin: 30px 10px 10px; height: 34px; width: 34px; border-radius: 10px; }
+.slick-featured-nav .slick-prev:hover,
+.slick-featured-nav .slick-next:hover,
+.slick-featured-nav .slick-prev:focus,
+.slick-featured-nav .slick-next:focus { background: #fff; }
+.slick-featured-nav .slick-prev { left: 0; }
+.slick-featured-nav .slick-next { right: 0; }
+.slick-featured-nav .slick-prev:before { color: #000; font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053"; }
+.slick-featured-nav .slick-next:before { color: #000; font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054"; }
+
+.type-card { background: #fff; box-shadow: 0 1px 0 rgba(0,0,0,0.06), 0 2px 3px rgba(0,0,0,0.06); margin-bottom: 10px; border-radius: 10px; position: relative; }
 .type-card-inner { position: relative; border-radius: 10px; overflow: hidden; }
 .type-card-thumbnail { height: 620px; width: 100%; background-color: #ccc; background-position: center; background-size: cover; }
 .type-card-thumbnail:before { opacity: 0.8; background: url(img/image-gradient.png) repeat-x; background-size: 100% 100%; content: ""; position: absolute; display: block; height: 100%; width: 100%; bottom: 0; display: block; transition: all .4s ease; }
@@ -898,6 +913,15 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 body.search article.type-page .type-card-comments,
 body.search article.type-page .type-card-author,
 body.search article.type-page .type-card-date { display: none; }
+
+.article-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(380px,1fr)); gap: 30px; }
+
+@media only screen and (min-width: 1190px) {
+	.card-small .type-card-content { padding: 40px; }
+	.card-small .type-card-title { font-size: 32px; }
+	.card-small .type-card-comments { right: 40px; bottom: 100px; }
+	.card-small .type-card-excerpt { font-size: 15px; }
+}
 
 .slick-image-slide-wrapper { position: relative; }
 .slick-image-slide { background: #333; }

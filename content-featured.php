@@ -1,6 +1,6 @@
 <?php $format = get_post_format(); ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('card-small'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('card-large'); ?>>
 	<div class="type-card">
 		<div class="type-card-inner">
 			<div class="type-card-thumbnail" style="background-image:url('<?php the_post_thumbnail_url('bigvisual-large'); ?>');">
