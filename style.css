@@ -1,7 +1,7 @@
 /*
 Theme Name: Bigvisual
 Theme URI: http://alx.media/themes/bigvisual/
-Version: 1.0.1
+Version: 1.0.2
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.8
@@ -654,7 +654,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
  *  Section: Header
 /* ------------------------------------------------------------------------- */
 #wrapper { padding-left: 320px; }
-#header { background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.05), 0 0 1px rgba(0,0,0,0.1); position: fixed; left: 60px; top: 0; bottom: 0; z-index: 1; width: 200px; padding: 20px 30px; }
+#header { background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.05), 0 0 1px rgba(0,0,0,0.1); position: fixed; left: 60px; top: 0; bottom: 0; z-index: 9; width: 200px; padding: 20px 30px; }
 .admin-bar #header { top: 32px; }
 #header-top { position: relative; }
 

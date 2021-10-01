@@ -77,6 +77,9 @@ Content images
 
 == Changelog ==
 
+= 1.0.2 - 2021-10-01 =
+* Fixed menu z-index, over carousel
+
 = 1.0.1 - 2021-10-01 =
 * Added featured posts carousel
 * Added grid for entries
