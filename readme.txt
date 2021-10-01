@@ -77,6 +77,9 @@ Content images
 
 == Changelog ==
 
+= 1.0.5 - 2021-10-01 =
+* Added missing container to archives and search
+
 = 1.0.4 - 2021-10-01 =
 * Fixed grid spacing for mobile resolutions
 
