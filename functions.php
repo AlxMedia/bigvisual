@@ -75,6 +75,7 @@ if ( ! function_exists( 'bigvisual_setup' ) ) {
 		// Thumbnail sizes
 		add_image_size( 'bigvisual-small', 200, 200, true );
 		add_image_size( 'bigvisual-medium', 520, 293, true );
+		add_image_size( 'bigvisual-large-square', 720, 720, true );
 		add_image_size( 'bigvisual-large', 1280, 720, true );
 		
 		// Thumbnail sizes custom widgets

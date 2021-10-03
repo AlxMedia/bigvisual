@@ -77,6 +77,9 @@ Content images
 
 == Changelog ==
 
+= 1.0.6 - 2021-10-03 =
+* Added an additional image size
+
 = 1.0.5 - 2021-10-01 =
 * Added missing container to archives and search
 

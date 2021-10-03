@@ -3,7 +3,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('card-small'); ?>>
 	<div class="type-card">
 		<div class="type-card-inner">
-			<div class="type-card-thumbnail" style="background-image:url('<?php the_post_thumbnail_url('bigvisual-large'); ?>');">
+			<div class="type-card-thumbnail" style="background-image:url('<?php the_post_thumbnail_url('bigvisual-large-square'); ?>');">
 				
 				<?php if ( has_post_format('video') && !is_sticky() ) echo'<span class="thumb-icon"><i class="fas fa-play"></i></span>'; ?>
 				<?php if ( has_post_format('audio') && !is_sticky() ) echo'<span class="thumb-icon"><i class="fas fa-volume-up"></i></span>'; ?>
