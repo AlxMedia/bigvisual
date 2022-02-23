@@ -584,7 +584,7 @@ Kirki::add_field( 'bigvisual_theme', array(
 	'label'			=> esc_html__( 'Create Social Links', 'bigvisual' ),
 	'description'	=> esc_html__( 'Create and organize your social links', 'bigvisual' ),
 	'section'		=> 'social',
-	'tooltip'		=> esc_html__( 'Font Awesome names:', 'bigvisual' ) . ' <a href="https://fontawesome.com/icons?d=gallery&s=brands&m=free" target="_blank"><strong>' . esc_html__( 'View All', 'bigvisual' ) . ' </strong></a>',
+	'tooltip'		=> esc_html__( 'Font Awesome names:', 'bigvisual' ) . ' <a href="https://fontawesome.com/v5/search?s=brands" target="_blank"><strong>' . esc_html__( 'View All', 'bigvisual' ) . ' </strong></a>',
 	'row_label'		=> array(
 		'type'	=> 'text',
 		'value'	=> esc_html__('social link', 'bigvisual' ),
@@ -601,7 +601,7 @@ Kirki::add_field( 'bigvisual_theme', array(
 		'social-icon'	=> array(
 			'type'			=> 'text',
 			'label'			=> esc_html__( 'Icon Name', 'bigvisual' ),
-			'description'	=> esc_html__( 'Font Awesome icons. Ex: fa-facebook ', 'bigvisual' ) . ' <a href="https://fontawesome.com/icons?d=gallery&s=brands&m=free" target="_blank"><strong>' . esc_html__( 'View All', 'bigvisual' ) . ' </strong></a>',
+			'description'	=> esc_html__( 'Font Awesome icons. Ex: fa-facebook ', 'bigvisual' ) . ' <a href="https://fontawesome.com/v5/search?s=brands" target="_blank"><strong>' . esc_html__( 'View All', 'bigvisual' ) . ' </strong></a>',
 			'default'		=> 'fa-',
 		),
 		'social-link'	=> array(
